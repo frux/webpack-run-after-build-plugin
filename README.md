@@ -3,6 +3,8 @@ Webpack plugin for doing anything after build is complete
 
 ## Usage
 ```js
+const RunAfterBuildPlugin = require('webpack-run-after-build-plugin');
+
 module.exports = {
     /// ... Your webpack config
     plugins = [
