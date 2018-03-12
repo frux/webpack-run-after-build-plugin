@@ -4,7 +4,7 @@ Webpack plugin for doing anything after build is complete
 ## Usage
 ```js
 module.exports = {
-    ...,
+    /// ... Your webpack config
     plugins = [
         // ... Your plugins,
         new RunAfterBuildPlugin(() => {
